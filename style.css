@@ -1,0 +1,43 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(117, 209, 248);
+}
+.welcome-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: black dirty;
+    background-color: rgb(80, 185, 250);
+    padding: 10px;
+    animation: forwards 0,5;
+}
+.footer-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: black dirty;
+    padding: 10px;
+    animation: forwards 0,5;
+}
+
+.img-fluid{
+    max-width: 50%; /* Membatasi lebar maksimal kontainer */
+    padding: 10px;
+    text-align: center; /* Mengatur gambar di tengah */
+}
+
+.rounded{
+    max-width: 90%; /* Membatasi lebar maksimal kontainer */
+    padding: 10px;
+    max-height: 1%;
+    text-align: center; /* Mengatur gambar di tengah */
+}
+.tambahan{
+    text-align: center;
+}
